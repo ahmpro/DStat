@@ -7,10 +7,9 @@
 // @include        http://rutracker.org/forum/viewforum.php?f=*
 // @match          http://rutracker.org/forum/viewforum.php?f=*
 // ==/UserScript==
-function w(){if(typeof unsafeWindow.jQuery=='undefined'){window.setTimeout(w,100);}else{$=unsafeWindow.jQuery;c();}}w();
 function c(){
 	function lll(){code();}
 	$("head").append("<script type='text/javascript' src='http://static.rslayers.com/rutrackerorg_resources/jquery.tablesorter.min.js'></script>");
 	$("head").append("<script type='text/javascript' src='http://static.rslayers.com/rutrackerorg_resources/seedinglist_all.js'></script>");
 	window.setTimeout(lll,1000);
-}
+}c();
