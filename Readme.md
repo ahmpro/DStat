@@ -1,5 +1,5 @@
 # Readme for dStat
-### By: [ahmpro](http://ahmpro.net)
+### By: [ahmpro]
 #### September 11, 2011
 
 ## Comming soon ...
